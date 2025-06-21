@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@zxing/library@0.21.3/umd/index.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
+    <!-- This hidden div is still needed for the print functionality -->
+    <div id="receipt-to-print" class="hidden">
+        <div id="receipt-logo-container"></div>
+        <div id="receipt-header"></div>
+        <table id="receipt-table"></table>
+        <div id="receipt-totals-breakdown"></div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
