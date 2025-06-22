@@ -3,7 +3,7 @@
   { "name": "salt", "price": 20, "baseUnit": "kg", "barcode": "8901272010018" },
   { "name": "rice", "price": 55, "baseUnit": "kg" },
   { "name": "atta", "price": 40, "baseUnit": "kg" },
-  { "name": "turmeric powder", "price": 25, "baseUnit": "100g", "barcode": "8901725132014" },
+  { "name": "turmeric powder", "price": 25, "baseUnit": "100g", "barcode": "8906002080120" },
   { "name": "chilli powder", "price": 30, "baseUnit": "100g" },
   { "name": "sunflower oil", "price": 110, "baseUnit": "liter" },
   { "name": "milk", "price": 60, "baseUnit": "liter", "barcode": "8906004500473" },
